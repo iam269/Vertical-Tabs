@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Vertical Tabs</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="right.png">
+</head>
+<body>
+  <div class="tabs-wrap">
+    <div class="tabs-left" role="tablist" aria-orientation="vertical">
+      <button class="tab active" role="tab" aria-selected="true" aria-controls="panel1" id="tab1">Overview</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel2" id="tab2">Features</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel3" id="tab3">Contact</button>
+    </div>
+
+    <div class="tabs-right">
+      <div id="panel1" class="panel" role="tabpanel" aria-labelledby="tab1">
+        <h2>Overview</h2>
+        <p>Aceasta este secțiunea Overview. Aici pui descrierea generală.</p>
+      </div>
+
+      <div id="panel2" class="panel" role="tabpanel" aria-labelledby="tab2" hidden>
+        <h2>Features</h2>
+        <ul>
+          <li>Responsive design</li>
+          <li>Accesibilitate (tastatură)</li>
+          <li>Animări simple</li>
+        </ul>
+      </div>
+
+      <div id="panel3" class="panel" role="tabpanel" aria-labelledby="tab3" hidden>
+        <h2>Contact</h2>
+        <p>Aici poți adăuga formular de contact sau link-uri spre rețele sociale.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
