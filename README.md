@@ -9,7 +9,7 @@ A sleek and responsive vertical tabs component built with HTML, CSS, and JavaScr
 - **ARIA Support**: Fully accessible for screen readers 👁️
 
 ## Demo 🌐
-Check out the live demo: [https://iam269.github.io/Vertical-Tabs/](https://iam269.github.io/Vertical-Tabs/)
+Check out the live demo: [https://itsiamdev.github.io/Vertical-Tabs/](https://itsiamdev.github.io/Vertical-Tabs/)
 
 ## Usage 📖
 Simply include the HTML structure, link the CSS and JavaScript files, and customize the tabs as needed. Easy to integrate into any project! 🔧
